@@ -192,7 +192,7 @@ var amount=0;
 function render()
 {
     gl.clear(gl.DEPTH_BUFFER_BIT | gl.COLOR_BUFFER_BIT);
-    amount+=0.001;
+    amount+=0.006;
     var s = Math.sin(amount);
     //Set initial view
     var eye = vec3(0.0, 1.0, 6.0);

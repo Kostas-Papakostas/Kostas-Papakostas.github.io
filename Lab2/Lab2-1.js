@@ -388,7 +388,6 @@ function shaderSelected(){
 
     for (var i = 0, length = radios.length; i < length; i++) {
         if (radios[i].checked) {
-            // do whatever you want with the checked radio
 
             if(radios[i].value=="phong"){
                 vertexShader="phong-vertex-shader";

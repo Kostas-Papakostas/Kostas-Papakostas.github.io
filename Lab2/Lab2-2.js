@@ -29,7 +29,7 @@ var mv = new mat4();
 var p = new mat4();
 var timeUn=0;
 var timeInterval=0.5;
-var scaleFactor=0;
+var scaleFactor=0.5;
 var frequency=0;
 var mvLoc, projLoc, timeLoc, frequencyLoc, scaleFactorLoc;
 

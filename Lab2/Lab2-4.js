@@ -27,7 +27,7 @@ var black = [0.0, 0.0, 0.0, 1.0];
 //Variables for Transformation Matrices
 var mv = new mat4();
 var p = new mat4();
-var angleDegrees=0;
+var angleDegrees=90;
 var twistFactor=0.5;
 var mvLoc, projLoc, angleDegreesLoc, factorLoc;
 
